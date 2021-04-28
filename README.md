@@ -1,7 +1,7 @@
 # Quiz App
 
-Starting with a basic React app, your goal is to implement a basic multiple-choice quiz application.
-
+Starting with a basic React app, your goal is to implement a basic
+multiple-choice quiz application.
 
 ## Goals
 
@@ -14,33 +14,35 @@ Starting with a basic React app, your goal is to implement a basic multiple-choi
 
 ## Stretch Goals
 
-* Allow user to submit their name to claim their quiz score
-* Show a leaderboard of the top quiz scorers
+- Allow user to submit their name to claim their quiz score
+- Show a leaderboard of the top quiz scorers
 
 ## Setup
 
-* Install dependencies: `yarn install`
-* Run application: `yarn start`
+- Install dependencies: `yarn install`
+- Run application: `yarn start`
 
 ## Helpers
 
-There is an `apiCall` helper in `src/helpers/api.js` that can be used for making API requests. 
+There is an `apiCall` helper in `src/helpers/api.js` that can be used for making
+API requests.
 
-It takes the path, request method, and body as parameters and returns a Promise with the API response.
+It takes the path, request method, and body as parameters and returns a Promise
+with the API response.
 
 The parameters for the `apiCall` helper are defined as:
 
-|Parameter | Description |
-|--- | ---|
-|`path` | The request path that is appended to the base API url. <br> The base API url is set to http://localhost:3100|
-|`method` | Request methods such as `GET`, `POST`, `PUT`, `DELETE`|
-|`body` | (Optional) JSON data to send with request|
+| Parameter | Description                                                                                                  |
+| --------- | ------------------------------------------------------------------------------------------------------------ |
+| `path`    | The request path that is appended to the base API url. <br> The base API url is set to http://localhost:3100 |
+| `method`  | Request methods such as `GET`, `POST`, `PUT`, `DELETE`                                                       |
+| `body`    | (Optional) JSON data to send with request                                                                    |
 
 <br>
 
 Example of using `apiCall` in a component:
 
-```
+````
 function Quiz () {
   ...
 
@@ -52,3 +54,4 @@ function Quiz () {
   ...
 }
 ```# quiz-frontend
+````
